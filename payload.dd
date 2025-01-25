@@ -1,0 +1,9 @@
+REM Author: Aljun Cerina
+REM Description: Unlock the PC's lock screen 
+REM Will create an external program (via PowerShell), which would check the PICO if it is still plugged in, if it isn't it would lock the computer by enabling the lock screen.
+
+DEFAULT_DELAY 40
+ENTER
+DEFAULT_DELAY 40
+STRING PasswordGoesHere!
+ENTER
